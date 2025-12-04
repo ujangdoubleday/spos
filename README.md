@@ -1,6 +1,6 @@
-# Next.js Starter Kit
+# SPOS
 
-A development-focused starter kit for Next.js 16, React 19, and TypeScript with pre-configured development tools including ESLint, Prettier, Husky, and TurboPack.
+A simple point of sales (POS) system built with Next.js 16, React 19, and TypeScript. Features product management, transaction processing, and sales reporting with a modern, user-friendly interface.
 
 ## Getting Started
 
@@ -44,26 +44,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to see the r
 - **`npm run lint`** - Run ESLint to check code quality
 - **`npm run build`** - Build the application
 - **`npm start`** - Start the application
-
-## Project Structure
-
-```
-next-starter/
-├── app/                    # Next.js App Router directory
-│   ├── layout.tsx         # Root layout component
-│   ├── page.tsx           # Home page
-│   └── globals.css        # Global styles
-├── public/                # Static assets
-├── .husky/                # Git hooks configuration
-├── node_modules/          # Dependencies
-├── package.json           # Project metadata and dependencies
-├── tsconfig.json          # TypeScript configuration
-├── next.config.ts         # Next.js configuration
-├── postcss.config.mjs      # PostCSS configuration
-├── eslint.config.mjs      # ESLint configuration
-├── .prettierrc             # Prettier configuration
-└── .gitignore             # Git ignore rules
-```
 
 ## Development Setup
 
